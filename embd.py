@@ -7,7 +7,7 @@ file_path = './GG18 - Climate - Approved.csv'  # Replace with your file path
 projects_df = pd.read_csv(file_path)
 
 # Set your OpenAI API key
-openai.api_key = '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'  # Replace with your OpenAI API key
+openai.api_key = ''  # Replace with your OpenAI API key
 
 # Specify the model for embeddings
 model = "text-embedding-ada-002"  # Example model, you can choose a different one
